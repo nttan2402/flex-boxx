@@ -11,18 +11,18 @@ align-items: flex-start | flex-end | center | baseline | stretch
 .child-1 {
 	background-color: red;
 	flex-basis: 300px;
-	flex-shrink: 2;
-
-}
-.child-3 {
-	background-color: green;
-	flex-basis: 201px;
-		flex-shrink: 1;
 
 }
 .child-2 {
 	background-color: blue;
-	flex-basis: 201px;
-		flex-shrink: 1;
+	flex-basis: 300px;
+}
+.child-3 {
+	background-color: green;
+	flex-basis: 300px;
 
+}
+
+.container-swap .child-1 {
+	order: 1;
 }
